@@ -21,3 +21,44 @@
   text-align: center;
   justify-content: space-evenly;
 }
+
+.pokeName {
+  color: black;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+.pokeImg {
+  margin-top: 10px;
+}
+
+.pokeType-list {
+  text-align: left;
+  display: flex;
+}
+
+.pokeList {
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 7px;
+  background-color: red;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.pokeCard {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: white;
+  height: 200px;
+}
