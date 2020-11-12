@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainTitle {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.classList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
